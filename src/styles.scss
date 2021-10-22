@@ -1,0 +1,256 @@
+/* You can add global styles to this file, and also import other style files */
+
+/*body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+*/
+
+body {
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  background:#005c9d;
+}
+p {
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 1.6;
+}
+h1 {
+  font-size: 40px;
+  color: #fff;
+}
+h2 {
+  font-size: 28px;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align:left;
+
+}
+h3 {
+  font-size: 26px;
+  color: #FFFFFF;
+
+}
+marquee{
+  color: white;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+
+.filter img:hover{
+
+  transform: scale(1.1);
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+}
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.brand {
+  font-size: 30px;
+}
+.menu {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.menu li {
+  float: left;
+  font-size: 16px;
+  list-style: none;
+}
+.menu li a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+#wrappe{
+  width: 80%;
+  margin: 0px auto;
+}
+#hed{
+  width:80%;
+  height: 30px;
+  background: #5F9EA0;
+  position: fixed;
+}
+
+/* Header */
+
+header {
+  background-color: #005c9d;
+  padding-top: 30px;
+}
+header .brand {
+
+  color: #074977;
+  margin-bottom: -59px;
+  width: 160px;
+  height: 153px;
+  background-image: url(img/name.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  width: 498px
+}
+
+header .menu {
+  float: right;
+  margin-bottom: 30px;
+  margin-top: -55px;
+}
+header .menu li{
+  padding-left: 20px;
+}
+
+header .menu li a {
+  color: white;
+  font-weight: bold;
+  padding: 7px;
+}
+header .menu li a:hover {
+  background: #008B8B;
+  color: black;
+
+}
+
+
+.jumbotron {
+  background-image: url(img/jumbotron.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  padding-bottom: 115px;
+  min-height: 400px;
+  text-align: center;
+  clear: both;
+}
+.jumbotron .button {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 40px;
+  background-color: #fa5ba5;
+  padding: 20px 30px;
+  border-radius: 30px;
+}
+
+
+a.more{
+
+  background: #5f9ea0;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  text-decoration:none;
+  margin-left: 5px
+}
+
+.services .service {
+  overflow: hidden;
+  width: 50%;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+}
+.services {
+  padding-top: 50px;
+  text-align: center;
+}
+.services .fa {
+  color: #979797;
+  margin-bottom: 15px;
+}
+
+
+
+.blog {
+  clear: both;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #FFFFFF;
+}
+.blog h2 {
+  text-align: left;}
+.blog .post {
+  padding-top: 30px;
+  display: inline-block;
+  clear: both;
+}
+.blog .post img {
+  float: left;
+  width: 280px;
+  margin-right: 30px;
+}
+
+
+footer {
+  clear: both;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: #285ea9;
+}
+footer .brand {
+  color: #bcc9dd;
+}
+footer .menu li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+footer .menu li a {
+  color: #bcc9dd;
+}
+footer .menu {
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+footer .copyright {
+  font-size: 12px;
+  color: #eee;
+}
+
+
+@media (max-width: 575px) {
+  .services .service {
+    width: 100%;
+    float: none;
+  }
+  .blog .post img {
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .blog .post {
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+img{
+  float:left;
+  margin-right: 7px;
+
+}
+h4{color: white}
+.bold { font-weight: bold;
+  font-size: 15pt;
+  text-align:left;
+}
+.zadralo{
+  font-size: 10pt;
+}

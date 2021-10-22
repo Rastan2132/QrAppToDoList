@@ -1,0 +1,17 @@
+
+
+<form class="example-form" [formGroup]="form">
+    <mat-card>
+      <mat-checkbox (change)="checked()" [(ngModel)]="isCheck" formControlName="isCheck">{{text}}</mat-checkbox>
+      <button type="button" (click)="openDialog('edit')">Edit</button>
+    </mat-card>
+</form>
+
+
+
+
+
+
+
+
+
